@@ -5,10 +5,10 @@ class Piece
     @column = column
     @color = color
   end
-  
+
   def place_piece
     piece = PrettyString.new("O")
-    puts piece.make_color(:blue)
+    puts piece.make_color(@color)
   end
   # def row_location
   #
